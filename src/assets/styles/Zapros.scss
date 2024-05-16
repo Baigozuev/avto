@@ -1,0 +1,104 @@
+#zapros {
+  padding: 20px 0;
+  .zapros {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+    h1 {
+      font-size: 50px;
+      font-weight: 800;
+      color: black;
+    }
+    &--blocks {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 10px;
+      h2 {
+        font-size: 25px;
+        font-weight: 500;
+        color: black;
+      }
+      .block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        input {
+          padding: 0 10px;
+          width: 330px;
+          height: 60px;
+          border: 1px solid black;
+          border-radius: 10px;
+          font-size: 18px;
+        }
+      }
+    }
+    &--blocks2 {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 10px;
+      h2 {
+        font-size: 25px;
+        font-weight: 500;
+        color: black;
+      }
+      .block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        gap: 20px;
+        input {
+          padding: 0 10px;
+          width: 330px;
+          height: 60px;
+          border: 1px solid black;
+          border-radius: 10px;
+          font-size: 18px;
+        }
+      }
+    }
+    &--blocks3 {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 10px;
+      h2 {
+        font-size: 25px;
+        font-weight: 500;
+        color: black;
+      }
+      .block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        input {
+          padding: 0 10px;
+          width: 1130px;
+          height: 60px;
+          border: 1px solid black;
+          border-radius: 10px;
+          font-size: 18px;
+        }
+      }
+    }
+    .click {
+      padding: 15px 60px;
+      border: none;
+      outline: none;
+      font-size: 19px;
+      font-weight: 600;
+      color: black;
+      border-radius: 10px;
+      background: red;
+      margin-left: 400px;
+    }
+  }
+}

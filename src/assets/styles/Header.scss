@@ -1,0 +1,76 @@
+#header {
+  padding: 10px 0;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    img {
+      width: 190px;
+    }
+    &--nav {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      margin-left: 100px;
+      a {
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+      }
+      a:hover {
+        border-bottom: 2px solid rgba(17, 91, 228, 0.903);
+        border-radius: 5px;
+        background: transparent;
+      }
+    }
+    .basket {
+      cursor: pointer;
+      font-size: 25px;
+      font-weight: 600;
+      color: black;
+    }
+    .basket:hover {
+      color: rgba(17, 91, 228, 0.903);
+      border-bottom: 2px solid rgba(17, 91, 228, 0.903);
+      border-radius: 5px;
+    }
+    .user {
+      cursor: pointer;
+      font-size: 25px;
+      font-weight: 600;
+      color: black;
+    }
+    .user:hover {
+      color: rgba(17, 91, 228, 0.903);
+      border-bottom: 2px solid rgba(17, 91, 228, 0.903);
+      border-radius: 5px;
+    }
+  }
+  .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input {
+      padding: 0 10px;
+      width: 350px;
+      height: 35px;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid rgba(17, 91, 228, 0.903);
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: 500;
+      color: black;
+    }
+    .search {
+      padding: 6px 30px;
+      border: 1px solid rgba(17, 91, 228, 0.903);
+      border-radius: 10px;
+      background: rgba(17, 91, 228, 0.903);
+      font-size: 20px;
+      font-weight: 600;
+      color: white;
+    }
+  }
+}

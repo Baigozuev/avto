@@ -1,0 +1,29 @@
+@import "../src/assets/styles/Header.scss";
+@import "../src/assets/styles/Home.scss";
+@import "../src/assets/styles/Useer.scss";
+@import "../src/assets/styles/Zapros.scss";
+@import "../src/assets/styles/Garaj.scss";
+@import "../src/assets/styles/Footer.scss";
+@import "../src/assets/styles/Contact.scss";
+@import "../src/assets/styles/BuyGaraj.scss";
+@import "../src/assets/styles/ProductDetails.scss";
+@import "../src/assets/styles/Basket.scss";
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}

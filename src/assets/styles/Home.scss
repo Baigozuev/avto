@@ -1,0 +1,122 @@
+#home {
+  margin: 50px 0;
+  .home {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 90px;
+    gap: 40px;
+    &--text {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      h1 {
+        font-size: 60px;
+        color: black;
+        font-weight: 600;
+      }
+      span {
+        font-size: 58px;
+        color: rgba(15, 98, 241, 0.881);
+        font-weight: 600;
+      }
+      &__btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 30px;
+        button {
+          padding: 20px 100px;
+          border: none;
+          outline: none;
+          background: red;
+          border-radius: 10px;
+          font-size: 20px;
+          color: white;
+        }
+        h5 {
+          font-size: 15px;
+          font-weight: 400;
+        }
+      }
+    }
+    img {
+      width: 400px;
+      // margin-bottom: 20px;
+    }
+    .icon {
+      position: absolute;
+      top: 500px;
+      right: 580px;
+
+      font-size: 60px;
+    }
+    .icon:hover {
+      color: rgb(10, 99, 233);
+    }
+    .icon2 {
+      position: absolute;
+      top: 500px;
+      right: 540px;
+      font-size: 60px;
+      margin-left: 80px;
+    }
+    .icon2:hover {
+      color: rgb(10, 99, 233);
+    }
+  }
+  .bottons {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+
+    .bot {
+      padding: 30px 100px;
+      border: none;
+      outline: none;
+      background: rgba(25, 100, 228, 0.756);
+      font-size: 15px;
+      font-weight: 600;
+      color: white;
+      -webkit-box-shadow: 0px -3px 149px -13px rgba(10, 123, 199, 1);
+      -moz-box-shadow: 0px -3px 149px -13px rgba(10, 123, 199, 1);
+      box-shadow: 0px -3px 149px -13px rgba(10, 123, 199, 1);
+    }
+  }
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+    gap: 60px;
+    &--p {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 20px;
+      h2 {
+        font-size: 30px;
+        font-weight: 600;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .read {
+        padding: 25px 100px;
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+        background: transparent;
+        border: 1px solid black;
+        border-radius: 5px;
+      }
+    }
+    img {
+      width: 500px;
+      margin-top: 40px;
+    }
+  }
+}
